@@ -1,0 +1,28 @@
+{
+  "name": "my-second-frog",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "deploy": "vercel",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@pinata/sdk": "^2.1.0",
+    "frog": "latest",
+    "hono": "^4",
+    "next": "14.1.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "viem": "^2.9.23"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5",
+    "vercel": "^32.4.1"
+  }
+}
