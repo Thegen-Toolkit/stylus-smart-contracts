@@ -1,7 +1,7 @@
 {
   "name": "my-second-frog",
   "private": true,
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "dev": "next dev",
     "deploy": "vercel",
@@ -10,12 +10,29 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/cache": "^11.11.0",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@iconify/react": "^4.1.1",
+    "@mui/icons-material": "^5.15.15",
+    "@mui/material": "^5.15.15",
     "@pinata/sdk": "^2.1.0",
+    "autoprefixer": "^10.4.19",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
     "frog": "latest",
     "hono": "^4",
+    "lodash": "^4.17.21",
+    "lucide-react": "^0.372.0",
     "next": "14.1.0",
+    "postcss": "^8.4.38",
     "react": "^18",
     "react-dom": "^18",
+    "react-hook-form": "^7.47.0",
+    "reactflow": "11.9.2",
+    "tailwind-merge": "^2.3.0",
+    "tailwindcss": "^3.4.3",
+    "tailwindcss-animate": "^1.0.7",
     "viem": "^2.9.23"
   },
   "devDependencies": {

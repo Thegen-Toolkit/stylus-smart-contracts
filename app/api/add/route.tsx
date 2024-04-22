@@ -27,7 +27,7 @@ export const POST = async (req: NextRequest) => {
     },
   };
 
-  console.log(frame)
+  // console.log(frame)
   const { IpfsHash } = await pinata.pinJSONToIPFS(frame, options);
 
   return NextResponse.json({ hash: IpfsHash });

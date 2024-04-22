@@ -5,7 +5,7 @@
 </p>
 
 <div align="center">
-  <a href="https://docs.scaffoldeth.io">Deck</a> |
+  <a href="https://www.canva.com/design/DAGDETKw7CY/NHSSbzpSBemLddQcn3JKXg/edit?utm_content=DAGDETKw7CY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Deck</a> |
   <a href="https://my-second-frog.vercel.app">Live Demo</a> |
   <a href="https://warpcast.com/nevvdevv/0x9d856b5a">Frame Example on</a>
 </div>

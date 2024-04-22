@@ -1,25 +1,68 @@
+// "use client";
+
+// import { useState, useEffect } from 'react'
 import { getFrameMetadata } from 'frog/next'
 import type { Metadata } from 'next'
 import Image from 'next/image'
 
 import styles from './page.module.css'
+import axios from "axios";
 
-export async function generateMetadata(): Promise<Metadata> {
-  const frameTags = await getFrameMetadata(
-    `${process.env.VERCEL_URL || 'http://localhost:3000'}/api`,
-  )
-  return {
-    other: frameTags,
-  }
-}
+// export async function generateMetadata(): Promise<Metadata> {
+//   const frameTags = await getFrameMetadata(
+//     `${process.env.VERCEL_URL || 'http://localhost:3000'}/api`,
+//   )
+//   return {
+//     other: frameTags,
+//   }
+// }
 
 export default function Home() {
+
+  // useEffect(() => {
+  //   console.log("+++++++++++++++++")
+  // }, [])
+
+  // useEffect(() => {
+  //   const fetchDataAsync = async () => {
+  //     // let frameJson = await axios.get(`https://turquoise-blank-manatee-120.mypinata.cloud/ipfs/${story}`);
+  //     const frameJson = await axios.post('http://localhost:3000/api/add', {
+  //       "frame": {
+  //     "name": "Test",
+  //     "pages": [
+  //       {
+  //         "question": "What is your name?",
+  //         "img": "https://turquoise-blank-manatee-120.mypinata.cloud/ipfs/QmPgNFac9gNcNCu47JNNiqArRp28FQ8fNTcoMv7p5nw4VG",
+  //         "options": ["Alice", "Bob", "Charlie"]
+  //       },
+  //       {
+  //         "question": "Lots of programming today, it was ton of work!",
+  //         "options": ["Red", "Green", "Blue"]
+  //       },
+  //       {
+  //         "question": "What is your favorite food?",
+  //         "img": "https://turquoise-blank-manatee-120.mypinata.cloud/ipfs/QmbJ2oA3vU89TFd5ejZ7mXFGHr9FUZG2FihjsZnuPT7UEH",
+  //         "options": ["Pizza", "Pasta", "Salad"]
+  //       }
+  //     ],
+  //     "correctOptions": ["Alice", "Green", "Salad"],
+  //     "owner": "0xEB17c38ecE894A97c5cD0E5Be8a576F0f630450c"
+  //   }
+  //   });
+  //     console.log('txhash', frameJson.data)
+  //   };
+
+  //   console.log('test')
+
+  //   fetchDataAsync();
+  // }, []);
+
   return (
     <main className={styles.main}>
       <div className={styles.description}>
         <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
           <p>
-            Get started by editing&nbsp;
+            Get started by editing!!!&nbsp;
             <code className={styles.code}>app/page.tsx</code>
           </p>
           <p>
